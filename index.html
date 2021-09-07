@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goriber Dokan</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responssive.css" />
+     <script src="app.js" defer></script>
+    
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#"><img src="logo.png" alt="" /></a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">My account</a></li>
+      </ul>
+      <div class="search">
+        <input
+          type="search"
+          name=""
+          id="searchBar"
+          placeholder="Search your items"
+        />
+      </div>
+      <div class="cart">
+        <a href="#"><i class="fas fa-cart-plus fa-7x"></i></a>
+        <div class="total">
+          total price: $<span class="totalPrice"></span> 
+        </div>
+        <div class="checkOut">
+          <button type="button">checkOut</button>
+        </div>
+        <ul class="cartItems">
+
+        </ul>
+      </div>
+    </header>
+    <!-- all product container start -->
+    <!-- icecream content -->
+    <div class="iceCreamItems">
+      <h1>icecream item</h1>
+      <div class="style">
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              alt=""
+          /></a>
+          <div class="title">Cone ice-Cream</div>
+          <div class="price-section">$ <span class="price">30</span> taka</div>
+          <button type="button" data-product-Id="1" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              alt=""
+          /></a>
+          <div class="title">Cone special icecream</div>
+          <div class="price-section">$ <span class="price">50</span> taka</div>
+          <button type="button" data-product-Id="2" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1562790879-dfde82829db0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+              alt=""
+          /></a>
+          <div class="title">Cone chocolate</div>
+          <div class="price-section">$ <span class="price">40</span> taka</div>
+          <button type="button" data-product-Id="3" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1488900128323-21503983a07e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aWNlJTIwY3JlYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt=""
+          /></a>
+          <div class="title">pablo ice-Cream</div>
+          <div class="price-section">$ <span class="price">70</span> taka</div>
+          <button type="button" data-product-Id="4" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1477505982272-ead89926a577?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aWNlJTIwY3JlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              alt=""
+          /></a>
+          <div class="title">Cone double deckers</div>
+          <div class="price-section">$ <span class="price">60</span> taka</div>
+          <button type="button" data-product-Id="5" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1590080962330-747c6aba8028?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt=""
+          /></a>
+          <div class="title">American Heritage Chocolate</div>
+          <div class="price-section">$ <span class="price">200</span> taka</div>
+          <button type="button" data-product-Id="6" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1516857625778-1b3f41a70783?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+              alt=""
+          /></a>
+          <div class="title">special cup</div>
+          <div class="price-section">$ <span class="price">150</span> taka</div>
+          <button type="button" data-product-Id="7" class="button">
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- all icecream container end -->
+    <!-- all bakeryItems start -->
+    <div class="bakeryItems">
+      <h1>bakery items</h1>
+      <div class="style">
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1588537708942-2d6157b36b14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+              alt=""
+          /></a>
+          <div class="title">French puff pastry</div>
+          <div class="price-section">$ <span class="price">40</span> taka</div>
+          <button type="button" data-product-Id="8" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1552632196-9442133181d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+              alt=""
+          /></a>
+          <div class="title">kenelbulle</div>
+          <div class="price-section">$ <span class="price">60</span> taka</div>
+          <button type="button" data-product-Id="9" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1505201997457-3c2e6f6c4910?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+              alt=""
+          /></a>
+          <div class="title">Delicious homemade bread in autumn mood</div>
+          <div class="price-section">$ <span class="price">70</span> taka</div>
+          <button type="button" data-product-Id="10" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1517141544637-42b300cb4ee9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+              alt=""
+          /></a>
+          <div class="title">special bread</div>
+          <div class="price-section">$ <span class="price">80</span> taka</div>
+          <button type="button" data-product-Id="11" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80"
+              alt=""
+          /></a>
+          <div class="title">crispy bread</div>
+          <div class="price-section">$ <span class="price">30</span> taka</div>
+          <button type="button" data-product-Id="12" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1513845155962-bf4294e031f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              alt=""
+          /></a>
+          <div class="title">chizzy roll</div>
+          <div class="price-section">$ <span class="price">10</span> taka</div>
+          <button type="button" data-product-Id="13" class="button">
+            ADD TO CART
+          </button>
+        </div>
+        <div class="product">
+          <a href="#"
+            ><img
+              src="https://images.unsplash.com/photo-1507638940746-7b17d6b55b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80"
+              alt=""
+          /></a>
+          <div class="title">Onion Olives bread magic</div>
+          <div class="price-section">$ <span class="price">130</span> taka</div>
+          <button type="button" data-product-Id="14" class="button">
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+</html>

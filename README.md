@@ -1,2 +1,2 @@
-# shoppingcart
-shopping cart using html,css,Js
+# shoppingcartrawhtmlcssjs.github.io
+shoppingCart raw html css js
